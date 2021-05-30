@@ -1,0 +1,260 @@
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("../img/nba.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #3a3a3a;
+}
+
+.firstPage {
+  height: 100vh;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.secondPage {
+  height: 92.4vh;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+.thirdPage {
+  height: 92.4vh;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+.thirdPage #myteam {
+  display: flex;
+  justify-content: center;
+}
+
+#main-holder {
+  width: 50%;
+  margin: 0 auto;
+  height: 70%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  border-radius: 7px;
+  box-shadow: 0px 0px 5px 2px black;
+}
+
+#main-holderTwo {
+  width: 50%;
+  margin: 0 auto;
+  height: 70%;
+  text-align: center;
+  border-radius: 7px;
+  box-shadow: 0px 0px 5px 2px black;
+  overflow-y: scroll;
+  font-size: 18px;
+}
+#main-holderTwo::-webkit-scrollbar {
+  width: 0.6rem;
+}
+#main-holderTwo::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+#main-holderTwo::-webkit-scrollbar-thumb {
+  background-color: #4285f4;
+  border-radius: 5px;
+}
+
+#main-holderThree {
+  width: 50%;
+  margin: 0 auto;
+  height: 70%;
+  text-align: center;
+  border-radius: 7px;
+  box-shadow: 0px 0px 5px 2px black;
+  font-size: 18px;
+}
+
+#login-error-msg-holder {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+#login-error-msg {
+  width: 23%;
+  text-align: center;
+  margin: 0;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #8a0000;
+  border: 1px solid #8a0000;
+  background-color: #e58f8f;
+  opacity: 0;
+}
+
+#error-msg-second-line {
+  display: block;
+}
+
+#login-form {
+  align-self: flex-start;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.login-form-field::placeholder {
+  color: #3a3a3a;
+}
+
+.login-form-field {
+  border: none;
+  border-bottom: 1px solid #3a3a3a;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  outline: none;
+  padding: 10px;
+}
+
+#login-form-submit {
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  background-color: #3a3a3a;
+  cursor: pointer;
+  outline: none;
+}
+
+#loading p {
+  font-size: 25px;
+}
+
+.nav {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navIn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button {
+  color: #fff;
+  background-color: #4285f4 !important;
+  border-color: #2e6da4;
+  display: inline-block;
+  font-weight: 400;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 20px;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.buttonOne {
+  color: #fff;
+  background-color: #4285f4 !important;
+  border-color: #2e6da4;
+  display: inline-block;
+  font-weight: 400;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.nav img {
+  width: 55px;
+  height: 55px;
+  margin-top: 15px;
+}
+
+.nav input {
+  padding: 6px;
+  margin-top: 15px;
+  font-size: 17px;
+  border-radius: 5px;
+}
+
+#players {
+  margin: 0 auto;
+}
+
+#players tr td {
+  padding-right: 10px;
+}
+
+#searchInput {
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.welcome {
+  color: white;
+  font-size: 20px;
+}
+
+#dropDown {
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+#myteam table {
+  width: 100%;
+  padding: 35px;
+  color: white;
+  font-size: 20px;
+}
+
+.rowTable {
+  margin-bottom: 10px;
+}
+
+.form {
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 10px;
+  width: 80%;
+}
+
+.form #searchInput {
+  outline: none;
+  border: 1px solid #bbb;
+  border-radius: 20px;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -ms-transition: 0.2s ease all;
+  -o-transition: 0.2s ease all;
+  transition: 0.2s ease all;
+}
+
+.form #searchInput:hover {
+  border-color: cornflowerblue;
+}

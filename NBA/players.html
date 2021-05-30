@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NBA players</title>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="Dare" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="nav">
+      <div class="navIn">
+        <a href="index.html"><img src="../NBA/assets/img/nba-logo.jpg" /></a>
+        <a href="team.html" class="button">My team</a>
+      </div>
+      <div class="welcome">Welcome <span id="welcome"></span></div>
+    </div>
+
+    <div class="secondPage">
+      <main id="main-holderTwo">
+        <h1>NBA PLAYERS</h1>
+        <div class="form">
+          <input
+            type="text"
+            placeholder="Search your player ..."
+            id="searchInput"
+          />
+          <select id="dropDown"></select>
+          <button class="button" id="sort">Sorting</button>
+        </div>
+
+        <!-- table for showing data -->
+        <div>
+          <div id="loading">
+            <p>Loading...</p>
+          </div>
+        </div>
+        <table id="players"></table>
+      </main>
+    </div>
+
+    <script src="./assets/js/players.js"></script>
+  </body>
+</html>
